@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resposta 2</title>
+<style>
+        .panel{
+            width: 550px;
+            height: 100px;
+            display: flex;
+        
+            border: 2px solid;
+            justify-content: space-around;
+        }
+        .elemento{
+            width: 50px;
+            height: 50px;}
+
+
+        .elemento{
+            background-color: gray;}
+
+
+        .elemento.alternate{
+            background-color: blue;
+            align-self: flex-end;}
+
+
+        .elemento:first-child{
+            background-color: red;
+            align-self: center;}
+
+        .elemento:last-child{
+            background-color: red;
+            align-self: center;}
+</style>
+</head>
+<body>
+            <div class="panel">
+                <div class="elemento"></div>
+                <div class="elemento alternate"></div>
+                <div class="elemento"></div>
+                <div class="elemento alternate"></div>
+                <div class="elemento"></div>
+                <div class="elemento alternate"></div>
+                <div class="elemento"></div>
+                <div class="elemento alternate"></div>
+                <div class="elemento"></div>
+            </div>
+</body>
+</html>

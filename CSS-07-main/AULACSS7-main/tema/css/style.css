@@ -1,0 +1,13 @@
+html, body{
+    height: 100%;
+}
+
+article{
+    width: 100%;
+}
+div {
+    background-color: aquamarine;
+    height: 300px;
+    width: 50%;
+
+}

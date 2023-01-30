@@ -1,0 +1,13 @@
+.tabela{display: table;
+width: 100%;
+}
+
+.linha{display: table-row;
+height: 40px;}
+
+.linha:nth-child(even) {background-color:bisque}
+
+.celula{
+    text-align: center;
+    display: table-cell;
+    border: solid;}

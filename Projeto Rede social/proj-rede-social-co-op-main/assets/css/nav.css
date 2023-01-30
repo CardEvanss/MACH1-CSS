@@ -1,0 +1,104 @@
+/* Elementos da nav */
+
+nav{
+    width: 100%;
+    height: 64px;
+    margin-bottom: 24px;
+
+    /* position: sticky;
+    top: 0;
+    z-index: 1; */
+}
+
+.nav{
+    display: flex;
+    box-shadow: 0px 4px 20px var(--color-azul-escuro02);
+    background-color: var(--color-cinza-claro02);
+    padding: 0 calc(1rem + 1vw);
+}
+.coluna-1, .coluna-2{
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    gap: 0.5rem;
+    align-items: center;
+    flex-grow: 1;
+}
+.coluna-1{
+    flex: 4;
+}
+.col-interna-1{
+    flex: 1;
+    display: flex;
+    gap: 0.5rem;
+    align-self: center;
+}
+.buscar{
+    border: var(--color-vermelho-claro) solid 1px;
+    border-radius: var(--border-radius);
+}
+.icone{
+    padding-left: 14px;
+    background-color: var(--color-branco);
+}
+.col-interna-2{
+    flex: 2;
+    display: flex;
+    gap: 0.5rem;
+    align-self: center;
+    justify-content: flex-end;
+}
+.site-nome{
+    font-size: calc(1rem + 1vw);
+    color: var(--color-vermelho-claro);
+    font-family: 'Anton', sans-serif;
+}
+.btn{ /* botoes */
+    width: 48px;
+    height: 48px;
+    border: var(--color-vermelho-claro) solid 1px;
+    border-radius: var(--border-radius);
+}
+.noti-ico{
+    position: relative;
+}
+.notificacao{
+    width: 10px;
+    height: 10px;
+    background-color: var(--color-vermelho-claro);
+    border-radius: 10px;
+    position: absolute;
+    right: 5px;
+    top: 5px;
+}
+
+@media screen and (max-width: 500px){ 
+    button.btn-postar{ /*botao postar*/
+        margin-top: 0px;
+        margin-bottom: 12px;
+    }
+    span.coments{ /*comentarios*/
+        margin-top: 12px;
+    }
+}
+
+@media screen and (min-width: 0px) { /*Tela Mobile*/
+    /* .hiddenP{
+        display: none;
+    } */
+    .hidden{
+        display: none;
+    }
+}
+
+@media screen and (min-width: 576px) { /*Tela Mobile2*/
+    /* .hiddenP{
+        display: initial;
+    } */
+}
+
+@media screen and (min-width: 992px) { /*Tela Tablet*/
+    .hidden{
+        display: initial;
+    }
+}

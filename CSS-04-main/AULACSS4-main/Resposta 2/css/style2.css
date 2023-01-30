@@ -1,0 +1,8 @@
+.principal {border: solid 5px blue}
+
+.principal div{
+    margin: 20px 0px;
+    border-radius: 20px 0px 20px 0px;
+    padding: 5px 10px;
+    border: 2px solid red;
+}

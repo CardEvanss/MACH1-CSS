@@ -1,0 +1,14 @@
+.tabela {
+    display: table;
+}
+.coluna {
+    border: solid 1px;
+    padding: 10px;
+    display: table-cell;
+}
+.linha:nth-last-of-type(odd) {
+    background-color: #e0e0e0;
+}
+.linha {
+    display: table-row;
+}

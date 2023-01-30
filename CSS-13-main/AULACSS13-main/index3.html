@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resposta 3</title>
+
+<style>
+    .panel{
+        width: 50px;
+        height: 300px;
+        
+        border: 2px solid;
+        display: flex;
+        gap: 4px;
+        flex-direction: column;
+    }
+    .elemento{
+        flex-grow: 2;
+    }
+    .maior{
+        flex-grow: 5;
+    }
+    .menor{
+        flex-grow: 1;
+    }
+    .panel div{
+        background-color: gray;
+    }
+</style>
+</head>
+<body>
+        <div class="panel">
+            <div class="elemento"></div>
+            <div class="elemento maior"></div>
+            <div class="elemento"></div>
+            <div class="elemento menor"></div>
+        </div>
+</body>
+</html>

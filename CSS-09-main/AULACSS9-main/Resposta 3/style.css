@@ -1,0 +1,27 @@
+.cadastro{width: 300px;}
+
+
+form{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;}
+
+
+
+input{
+    border: solid 1px black;
+    padding: 10px 20px;}
+
+
+input:disabled{
+    background-color: #E0E0E0;}
+
+
+input[readonly]{
+    color: #A0A0A0;
+    border-color: #A0A0A0;
+    font-weight: bold;}
+
+
+input:required{
+    border-color: red;}

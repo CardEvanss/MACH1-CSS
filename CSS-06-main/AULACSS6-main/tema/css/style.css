@@ -1,0 +1,21 @@
+.cor_de_fundo { 
+    height: 300px;
+    width: 300px;
+    background-color: #960096;
+
+    /* background-image: linear-gradient(to right, #960096, #954512 , #960096); */
+
+    /* background-image: url(https://bemach1.com.br/wp-content/uploads/2022/09/Logo-Mach.svg); background-repeat: no-repeat; background-position: 100px; */
+    background-image: url("/assets/images/gatinho-5755.jpg");
+    background-size: cover;
+}
+
+
+
+.imagem_com_div{
+    height: 400px;
+    width: 300px;
+    background-color: aqua;
+    overflow: hidden; /O que tiver para fora da div, colocar barra de rolagem para o usuario ver/
+
+}

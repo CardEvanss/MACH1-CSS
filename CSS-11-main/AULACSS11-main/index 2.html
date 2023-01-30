@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resposta 02</title>
+    
+    <style>
+         .informacoes{
+            background-color: yellow;
+            width: 250px;
+            height: 250px;
+            border-radius: 50%;
+            overflow: hidden;
+            color: yellow;
+            
+            transition-duration: .8s, .8s;
+            transition-delay: .2s, .4s;
+            transition-property: border-radius, width;
+            transition-timing-function: ease;}
+    
+        .informacoes div{
+            transition-timing-function: ease-in-out;
+            transition-duration: .1s;
+            transition-delay: .2s;}
+        
+        .informacoes:hover{
+            border-radius: 20px;
+            width: 350px;}
+
+
+        .informacoes:hover div{
+            color: black;
+            transition-timing-function: ease-in;
+            transition-duration: .4s;
+            transition-delay: 1s;}
+
+    </style>
+
+</head>
+<body>
+    <div class="informacoes">
+        <div>
+            <h1>Titulo do produto</h1>
+            <p>Lorem ipsum dolor sit amet consectetur.</p>
+        </div>
+    </div>
+</body>
+</html>

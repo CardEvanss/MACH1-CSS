@@ -1,0 +1,30 @@
+/* || DarkMode Sistem */
+@media (prefers-color-scheme: dark) {
+    html, body.bac{ 
+        /* color: var(--color-news-cyberblue); */
+        background: var(--color-preto);
+    }
+    .nav{
+        background-color: var(--color-roxo-escuro);
+        box-shadow: 0px 4px 20px var(--color-amarelo);
+    }
+    .icone{
+        background-color: var(--color-amarelo);
+    }
+    .site-nome{
+        color: var(--color-amarelo);
+    }
+    .notificacao{
+        background-color: var(--color-magenta-neon);
+    }
+
+    div.perfil{
+        background-color: var(--color-roxo-claro);
+    }
+    div.main{
+        background-color: var(--color-roxo-claro);
+    }
+    div.amigos{
+        background-color: var(--color-roxo-claro);
+    }
+}

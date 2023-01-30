@@ -1,0 +1,29 @@
+/* || Variaveis */
+
+:root{
+    --border-radius: 8px;
+
+    /* escuro */
+    --color-preto:#000000;
+    --color-cinza-escuro:#333333;
+    --color-azul-escuro:#000080;
+    --color-vermelho-escuro:#800000;
+    --color-amarelo:#FFFF00;
+    --color-roxo-escuro:#660066;
+    /* claro */
+    --color-branco:#FFFFFF;
+    --color-cinza-claro:#CCCCCC;
+    --color-azul-claro:#0066CC;
+    --color-vermelho-claro:#FF3333;
+    --color-amarelo-claro:#FFFF99;
+    --color-roxo-claro:#CC99FF;
+
+    /* escuro 02 */
+    --color-cinza-claro02:#5a5a5a;
+    --color-azul-escuro02:#000a3c;
+    --color-amarelo02:#ffbe00;
+    --color-verde-neon:#00ff96;
+    --color-magenta-neon:#dc00ff;
+    /* claro 02 */
+    --color-lilas:#9664ff;
+}

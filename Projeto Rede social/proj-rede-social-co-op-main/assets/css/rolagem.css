@@ -1,0 +1,26 @@
+/* || Scrol */
+
+/* Firefox */
+* {
+    scrollbar-width: thin;
+    scrollbar-color: #e228d8 #070d12;
+  }
+  
+  /* Chrome, Edge, Safari */
+  *::-webkit-scrollbar {
+    width: 12px;
+    height: 12px;
+  }
+  
+  *::-webkit-scrollbar-track {
+    background: #070d12;
+    border-radius: 20px;
+  }
+  
+  *::-webkit-scrollbar-thumb {
+    /* background-color: #e228d8; */
+    background-color: var(--color-news-cyberblue);
+    /* background-color: var(--color-bkg-orange); */
+    border-radius: 20px;
+    border: 3px solid #070d12;
+  }

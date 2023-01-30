@@ -1,0 +1,6 @@
+.LogoRepetidoLateral{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(https://bemach1.com.br/wp-content/uploads/2022/09/Logo-Mach.svg); background-repeat: repeat-y;
+    background-color: #0F0C33;
+}

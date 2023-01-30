@@ -1,0 +1,33 @@
+body{margin: 0;}
+
+
+.tabela{
+    display: table;
+    padding: 0;}
+
+
+
+.row{display: table-row;}
+
+
+
+div{
+    display: table-cell;
+    border: 1px solid black;
+    width: 400px;
+    height: 22px;
+    vertical-align: middle;
+    padding-left: 10px;}
+
+
+div.row:nth-child(1){
+    background-color: blue;
+    color: white;}
+
+
+.row:nth-child(odd){
+    background-color: #e0e0e0;}
+
+
+.row:nth-child(even){
+    background-color: #ffffff;}

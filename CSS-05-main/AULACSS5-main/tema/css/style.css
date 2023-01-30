@@ -1,0 +1,27 @@
+/* 
+.pai {width: 400px;
+height: 400px;
+background-color: aqua;
+position: fixed;
+}
+
+.interno {
+    width: 230px;
+    height: 230px;
+    background-color: blueviolet;
+    position: relative;
+    top: 40px;
+}
+
+.posicao {
+    height: 164px;
+    width: 164px;
+    background-color: aquamarine;
+    position:absolute;
+    bottom: 0;
+    right: 0;    
+} */
+
+h1{ float: left;}
+
+h2{float: right;}

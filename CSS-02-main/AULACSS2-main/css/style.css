@@ -1,0 +1,13 @@
+#principal h1{color: blue;}
+
+#principal h1 ~ p em{
+    color:blue
+}
+
+#principal h1 + p em{
+    color:red;
+}
+
+#principal article h1 {color:green}
+
+#principal article p {color: blue;}
